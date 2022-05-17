@@ -1,0 +1,38 @@
+.terceira{
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+  margin-top: 40px;
+}
+
+.terceira__img img{
+  width: 800px;
+  position: absolute;
+  left: -220px;
+  top: 20px;
+}
+
+.terceira__texto{
+  width: 50%; 
+  margin-top: 60px;
+  margin-right: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.terceira__texto h3{
+  color: var(--azul-escuro);
+  font-family: var(--fonte-titulo);
+  margin-bottom: 15px;
+}
+
+.terceira__texto p {
+  color: var(--azul-escuro);
+}
+
+#terceira__espaco{
+  margin-bottom: 40px;
+}

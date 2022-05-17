@@ -1,0 +1,35 @@
+.segunda{
+  display: flex;
+  padding: 10px 100px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 250px;
+  background: linear-gradient(to right, #3E4062, #444670, #60639e );
+  position: relative;
+  width: 100%;
+  border-radius: 0 80px 0 80px;
+}
+
+.segunda__imagem img{
+  position: absolute;
+  top: -60px;
+  width: 450px;
+}
+
+.segunda__texto{
+  width: 36%;
+}
+
+.segunda__texto h3{
+  color: #fff;
+  font-family: var(--fonte-titulo);
+  font-weight: bold;
+  font-size: 28px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.segunda__texto p{
+  color: #fff;
+  margin-bottom: 80px;
+}
