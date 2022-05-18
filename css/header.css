@@ -1,6 +1,10 @@
 header{
   width: 100%;
-  background: linear-gradient(to right, #FE846D, #FF6D66, #FE4C5A, #FE846D);
+  background-image:url('../images/bg-pattern-intro-desktop.svg');
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--vermelho);
   border-radius: 0 0 0 40px;
   display: flex;
   flex-direction: column;
@@ -92,6 +96,12 @@ header{
   padding: 5px 15px;
   border-radius: 15px;
   font-weight: 600;
+  transition: all .4s;
+}
+
+.sign-up:hover{
+  background-color: var(--vermelho);
+  color: #fff;
 }
 
 .titulo-principal{
@@ -125,6 +135,12 @@ header{
   color: var(--vermelho);
   font-weight: 600;
   border-radius: 30px;
+  transition: all .4s;
+}
+
+.start-for-free:hover{
+  background-color: #852019;
+  color: #fff;
 }
 
 .learn-more{
@@ -132,4 +148,10 @@ header{
   border-radius: 30px;
   font-weight: 600;
   color: #fff;
+  transition: all .4s;
+}
+
+.learn-more:hover{
+  background-color: #852019;
+ 
 }

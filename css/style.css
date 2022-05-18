@@ -3,6 +3,7 @@
 @import url(./primeira-sec.css);
 @import url(./segunda-sec.css);
 @import url(./terceira-sec.css);
+@import url(./footer.css);
 
 :root{
   --fonte-titulo: 'Ubuntu', sans-serif;
@@ -11,6 +12,7 @@
   --laranja: hsl(13, 100%, 72%);
   --vermelho: hsl(353, 100%, 62%);
   --azul-escuro: hsl(237, 17%, 21%);
+  --azul-marinho: hsl(240, 10%, 16%);
 
 }
 
