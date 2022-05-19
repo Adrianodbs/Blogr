@@ -57,10 +57,20 @@
   }
 
   .segunda__texto h3{
-    margin-top: 10px;
+    margin-top: 0px;
   }
 
   .segunda__texto p{
     margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .segunda__texto{
+    width: 80%;
+  }
+
+  .segunda__imagem img{
+    width: 200px;
   }
 }

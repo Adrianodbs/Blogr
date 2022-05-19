@@ -184,8 +184,34 @@ header{
   .cabecalho__lista{
     gap: 40px;
   }
-  
+
   .logo{
     width: 45px;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .titulo-principal{
+    margin: 40px 0 15px;
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .subtitulo{
+    text-align: center;
+  }
+
+  .botoes-subtitulo{
+    gap: 25px;
+    margin-bottom: 40px;
+  }
+
+  .cabecalho__lista{
+    display: none;
+  }
+  
+
+  .cabecalho__login{
+    padding-left: 20px;
   }
 }
