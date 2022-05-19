@@ -44,3 +44,36 @@
   top: 50px;
  
 }
+
+/* Responsivo */
+
+@media screen and (max-width: 1200px){
+  .primeira__info img{
+    width: 500px;
+    right: -140px;
+    top: 80px;
+  }
+}
+
+@media screen and (max-width: 900px){
+  .primeira__info{
+    width: 100%;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .primeira__info img{
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .primeira__info--texto{
+  width: 60%;
+  margin-left: 0;
+  }
+}

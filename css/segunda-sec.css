@@ -36,3 +36,31 @@
   color: #fff;
   margin-bottom: 80px;
 }
+
+/* Responsivo */
+
+@media screen and (max-width: 900px){
+  .segunda{
+    flex-direction: column;
+    margin-top: 80px;
+    padding: 10px 30px;
+    justify-content: center;
+  }
+  .segunda__imagem img{
+    position: relative;
+    width: 300px;
+  }
+
+  .segunda__texto{
+    text-align: center  ;
+    width: 50%;
+  }
+
+  .segunda__texto h3{
+    margin-top: 10px;
+  }
+
+  .segunda__texto p{
+    margin-bottom: 30px;
+  }
+}

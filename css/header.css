@@ -152,6 +152,40 @@ header{
 }
 
 .learn-more:hover{
-  background-color: #852019;
- 
+  background-color: #852019; 
+}
+
+/* responsivo */
+
+@media screen and (max-width: 1200px) {
+  .cabecalho{
+    padding: 40px 80px;
+  }
+
+  .logo{
+    width:60px;
+  }
+
+  .cabecalho__lista{
+    align-items: center;
+    gap: 60px;
+  }
+
+  .cabecalho__login{
+    padding-left: 150px;
+  }
+}
+
+@media screen and (max-width: 900px){
+  .cabecalho{
+    padding: 40px;
+  }
+
+  .cabecalho__lista{
+    gap: 40px;
+  }
+  
+  .logo{
+    width: 45px;
+  }
 }

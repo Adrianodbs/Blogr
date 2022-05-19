@@ -36,3 +36,13 @@
 #terceira__espaco{
   margin-bottom: 40px;
 }
+
+/* Responsivo */
+
+@media screen and (max-width: 1200px){
+  .terceira__img img{
+    width: 500px;
+    left: -100px;
+    top: 80px;
+  }
+}
