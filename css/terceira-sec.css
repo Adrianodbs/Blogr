@@ -46,3 +46,28 @@
     top: 80px;
   }
 }
+
+@media screen and (max-width: 900px){
+  .terceira{
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0px;
+    padding: 30px;
+  }
+  .terceira__img{
+    width: 100%;
+   
+  }
+  .terceira__img img{
+    position: relative;
+    width: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 40px;
+  }
+
+  .terceira__texto{
+    margin-right: 0;
+    text-align: center;
+  }
+}
